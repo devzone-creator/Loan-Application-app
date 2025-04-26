@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan-Application-app</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-links">
+                <div class="logo">
+                    <h1>Sure-Loans</h1>
+                </div>
+                <a href="" class="menu" onclick="toggleMenu">&blacksquare;</a>
+                <ul id="menu">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Loan History</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="hero-text">
+                <h3>Sure Loans Offers You The Most 
+                    <span>Affordable</span> And Yet 
+                    <span>Available</span> Loans NationWide.
+                </h3>
+                <p>Our Community far reaches out to 
+                    All ECOWAS countries and Francophone countries</p>
+                <a class="button" onclick="toggleNewsLetter()">Apply For Loan</a>
+                <a class="button" onclick="toggleNewsLetter()">Check Loan Amount</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="container">
+        <div class="hidden">
+            <form id="loanform">
+                <h2>Loan Collector</h2>
+                <label for="amount">Loan Amount</label>
+                <input type="number" id="amount" placeholder="Enter loan amount needed">
+
+                <label for="duration">Duration</label>
+                <input type="number" id="term" >
+    
+                <button type="submit">Request</button>
+                <a class="close" onclick="toggleNewsLetter()">
+                    <i class="fa fa-times fa 2x" aria-hidden="true">&times;</i>
+                </a>
+            </form>
+        </div>
+    </section>
+
+    <main>
+        <section class="contain">
+            <div class="row">
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Copyrights 2600, All rights reserved.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
