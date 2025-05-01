@@ -77,6 +77,20 @@ nav{
     font-size: 1.1rem;
     font-weight: 500;
 }
+.hero-text a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #fff;
+    background: #000;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 1s;
+}
+.hero-text a:hover{
+    background: #fff;
+    color: #723207;
+}
 @media (max-width: 960px){
     header{
         height: 80vh;

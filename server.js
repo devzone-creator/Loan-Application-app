@@ -9,8 +9,8 @@ app.get('/', (req, res) => {
     res.render('index')
 })
 
-app.get('/apply', (req, res) => {
-    res.render('apply')
+app.get('/application-form', (req, res) => {
+    res.render('loanform')
 });
 
 app.listen(1000, () => {
